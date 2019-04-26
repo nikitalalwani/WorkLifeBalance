@@ -1,14 +1,14 @@
 //
-//  workingHourController.swift
+//  AllDataController.swift
 //  WorkLifeBalance
 //
-//  Created by nikita lalwani on 4/14/19.
+//  Created by nikita lalwani on 4/24/19.
 //  Copyright © 2019 nikita lalwani. All rights reserved.
 //
 
 import UIKit
 
-class workingHourController: UIViewController {
+class AllDataController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

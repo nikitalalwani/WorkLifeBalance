@@ -1,14 +1,14 @@
 //
-//  BarChartCell.swift
+//  OvertimeCell.swift
 //  WorkLifeBalance
 //
-//  Created by nikita lalwani on 4/16/19.
+//  Created by nikita lalwani on 4/24/19.
 //  Copyright © 2019 nikita lalwani. All rights reserved.
 //
 
 import UIKit
 
-class BarChartCell: UITableViewCell {
+class OvertimeCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

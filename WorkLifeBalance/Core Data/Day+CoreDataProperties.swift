@@ -1,9 +1,8 @@
 //
 //  Day+CoreDataProperties.swift
-//  WorkLifeBalance
+//  
 //
-//  Created by nikita lalwani on 4/16/19.
-//  Copyright © 2019 nikita lalwani. All rights reserved.
+//  Created by nikita lalwani on 4/25/19.
 //
 //
 
@@ -20,8 +19,9 @@ extension Day {
     @NSManaged public var arrivalTime: NSDate?
     @NSManaged public var dayOfWeek: Double
     @NSManaged public var departureTime: NSDate?
-    @NSManaged public var hoursWorked: Int64
-    @NSManaged public var workingHours: Int64
+    @NSManaged public var endTime: NSDate?
+    @NSManaged public var hoursWorked: Double
+    @NSManaged public var startTime: NSDate?
     @NSManaged public var person: Person?
 
 }

@@ -1,14 +1,14 @@
 //
-//  PieChartCell.swift
+//  AllDataCell.swift
 //  WorkLifeBalance
 //
-//  Created by nikita lalwani on 4/16/19.
+//  Created by nikita lalwani on 4/25/19.
 //  Copyright © 2019 nikita lalwani. All rights reserved.
 //
 
 import UIKit
 
-class PieChartCell: UITableViewCell {
+class AllDataCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -1,9 +1,8 @@
 //
 //  Person+CoreDataProperties.swift
-//  WorkLifeBalance
+//  
 //
-//  Created by nikita lalwani on 4/16/19.
-//  Copyright © 2019 nikita lalwani. All rights reserved.
+//  Created by nikita lalwani on 4/25/19.
 //
 //
 
@@ -17,13 +16,10 @@ extension Person {
         return NSFetchRequest<Person>(entityName: "Person")
     }
 
-    @NSManaged public var age: Int64
-    @NSManaged public var dateOfBirth: String?
     @NSManaged public var email: String?
-    @NSManaged public var firstName: String?
-    @NSManaged public var lastName: String?
-    @NSManaged public var password: String?
     @NSManaged public var isConfigured: Bool
+    @NSManaged public var password: String?
+    @NSManaged public var normalWorkingHours: Double
     @NSManaged public var days: NSSet?
     @NSManaged public var places: Place?
 
